@@ -1,0 +1,9 @@
+To run 
+http://localhost/Online_exam/Home.html
+
+All the functions of sql and php
+https://www.guru99.com/mysql-php-and-other-database-access-methods.html
+
+1) Home.html - just a login.
+2) validate.php - to verify the valid teacher.
+3) exam.php - a page where tacher can post exam

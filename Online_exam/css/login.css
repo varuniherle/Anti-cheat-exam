@@ -1,0 +1,22 @@
+
+.login-right{
+	background: rgba(211,211,211,0.5);
+	padding: 50px;
+}
+.login-left{
+	background: #fff;
+	padding: 50px;
+}
+.login-box{
+	max-width: 1000px;
+	float: none;
+	margin: 100px auto;
+}
+.form-control{
+	background-color: transparent ;
+}
+h1{
+	font-size: 50px;
+	color: white;
+
+}

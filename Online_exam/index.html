@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Login and Registration</title>
+	<link rel="stylesheet" type="text/css"
+		href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<style type="text/css">
+		body {
+			background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)), url("images/home_page.jpg");
+			background-size: cover;
+		}
+
+		h1 {
+			background-color: black;
+			font-size: 28px;
+			padding: 20px;
+			color: white;
+			float: center;
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+	<h1 style="color: white,">Hidden Answers</h1>
+	<div class="container">
+
+		<div class="login-box">
+			<div class="row">
+				<div class="col-md-6 login-left">
+					<!--first half-->
+					<h2>Teacher login</h2>
+					<form action="validate_teacher.php" method="post">
+						<div class="form-group">
+							<label>User name</label>
+							<input type="text" name="user" class="form-control" required>
+						</div>
+						<div class="form-group">
+							<label>Password</label>
+							<input type="Password" name="pass" class="form-control" required>
+						</div>
+						<input type="submit" class="btn btn-primary">
+					</form>
+				</div><!-- end of first half-->
+
+				<div class="col-md-6 login-right">
+					<h2>Student Login</h2>
+					<form action="validate_student.php" method="post">
+						<div class="form-group">
+							<label>User name</label>
+							<input type="text" name="user" class="form-control" required>
+						</div>
+						<div class="form-group">
+							<label>Password</label>
+							<input type="Password" name="pass" class="form-control" required>
+						</div>
+						
+						<input type="submit" class="btn btn-primary">
+						<h6>If you have trouble login please contact your supervisor</h6>
+					</form>
+				</div><!-- login right-->
+			</div>
+			<!--login-box-->
+		</div>
+		<!--row-->
+	</div>
+	<!--container-->
+</body>
+
+</html>
